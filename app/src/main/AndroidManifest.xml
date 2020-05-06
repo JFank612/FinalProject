@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FinalScreen3"></activity>
+        <activity android:name=".Display"></activity>
+        <activity android:name=".FinalScreen3" />
         <activity android:name=".FinalScreen2" />
         <activity android:name=".Finalscreen2" />
         <activity android:name=".MainActivity">

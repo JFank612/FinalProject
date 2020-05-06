@@ -1,20 +1,26 @@
 <resources>
     <string name="app_name">FinalProject</string>
-    <string name="welcome">Welcome to "Music Storage".</string>
+    <string name="welcome">AudioDepot</string>
     <string name="txtUsername">Username</string>
     <string name="txtPassword">Password</string>
     <string name="login">Login</string>
     <string name="description">Photo by John Matychuk on Unsplash</string>
     <string name="artist">Artist/Band:</string>
-    <string name="song">Song Entry:</string>
-    <string-array name="genre">
-        <item>Rock</item>
-        <item>Pop</item>
-        <item>Rap/Hip-pop</item>
-        <item>Classical</item>
-        <item>Alternative</item>
-        <item>Classic Rock</item>
-    </string-array>
+    <string name="song">Song Entries:</string>
+    <string name="rock">Rock</string>
+    <string name="pop">Pop</string>
+    <string name="rap">Rap/Hip-pop</string>
+    <string name="classical">Classical</string>
+    <string name="alt">Alternative</string>
+    <string name="classicRock">Classic Rock</string>
     <string name="save">Save</string>
     <string name="next">Next</string>
+    <string name="optional">Optional</string>
+    <string name="titleGenre">What genre is the music:</string>
+    <string name="cassette">Photo by Vova Krasilnikov from Pexels</string>
+    <string name="instruments">Photo by Snapwire from Pexels</string>
+    <string name="next2">Next</string>
+    <string name="display">Display All</string>
+    <string name="songDisplay">Song(s):</string>
+    <string name="genreDisplay">Genre:</string>
 </resources>

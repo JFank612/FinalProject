@@ -22,13 +22,13 @@
             android:layout_marginTop="64dp"
             android:text="@string/song"
             android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/idArtistInput"
+            app:layout_constraintEnd_toStartOf="@+id/songInput1"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/idArtistInput"
+            android:id="@+id/songInput1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="52dp"
@@ -40,34 +40,23 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/idSongInput"
+            android:id="@+id/artistInput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="44dp"
             android:ems="10"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.372"
             app:layout_constraintStart_toEndOf="@+id/idArtist"
-            app:layout_constraintTop_toBottomOf="@+id/idArtistInput" />
-
-        <Spinner
-            android:id="@+id/idGenreSpn"
-            android:layout_width="166dp"
-            android:layout_height="0dp"
-            android:layout_marginTop="28dp"
-            android:entries="@array/genre"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.783"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/idSongInput" />
+            app:layout_constraintTop_toBottomOf="@+id/songInput3" />
 
         <TextView
             android:id="@+id/idArtist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="52dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="224dp"
             android:text="@string/artist"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -77,12 +66,50 @@
             android:id="@+id/idNextBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="88dp"
+            android:layout_marginTop="24dp"
             android:text="@string/next"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.455"
+            app:layout_constraintHorizontal_bias="0.9"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/idGenreSpn" />
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:onClick="onSave"
+            android:text="@string/save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/artistInput" />
+
+        <EditText
+            android:id="@+id/songInput2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="@string/optional"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.838"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/songInput1" />
+
+        <EditText
+            android:id="@+id/songInput3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="@string/optional"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.838"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/songInput2" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
